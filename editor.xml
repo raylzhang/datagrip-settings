@@ -11,6 +11,7 @@
     <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
     <option name="LINE_SPACING" value="1.1" />
     <option name="USE_LIGATURES" value="true" />
+    <option name="SECONDARY_FONT_FAMILY" value="LXGW WenKai" />
   </component>
   <component name="EditorSettings">
     <option name="IS_DND_ENABLED" value="false" />
