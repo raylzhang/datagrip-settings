@@ -1,5 +1,11 @@
 <application>
-  <component name="DatabaseSettings" version="4">
+  <component name="DatabaseSettings" version="7">
+    <option name="execute-inside-option" value="2" />
+    <exec-options>
+      <exec-option exec-inside="2" />
+      <exec-option />
+      <exec-option />
+    </exec-options>
     <text-mode>
       <parameter-patterns>
         <parameter-pattern value="#(\w+)#" in-scripts="true" scope="XML" predefined="#name#" />
@@ -15,6 +21,16 @@
       <csv-format name="Tab-separated (TSV)" id="Tab-separated (TSV)_id">
         <data>
           <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="&#9;" recordSeparator="&#10;">
+            <quotation>
+              <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
+              <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
+            </quotation>
+          </record-format>
+        </data>
+      </csv-format>
+      <csv-format name="管道分隔" id="Pipe-separated_id">
+        <data>
+          <record-format prefix="" suffix="" nullText="" quotationPolicy="as needed" valueSeparator="|" recordSeparator="&#10;">
             <quotation>
               <quotes left="&quot;" right="&quot;" leftEscaped="&quot;&quot;" rightEscaped="&quot;&quot;" />
               <quotes left="'" right="'" leftEscaped="''" rightEscaped="''" />
