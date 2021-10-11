@@ -1,6 +1,7 @@
 <application>
   <component name="DatabaseSettings" version="7">
     <option name="execute-inside-option" value="2" />
+    <option name="notebook-mode" value="true" />
     <exec-options>
       <exec-option exec-inside="2" />
       <exec-option />
