@@ -4,9 +4,10 @@
     <property name="created">2022-01-22T17:32:17</property>
     <property name="ide">DataGrip</property>
     <property name="ideVersion">2021.3.4.0.0</property>
-    <property name="modified">2022-01-22T17:35:43</property>
+    <property name="modified">2022-07-04T21:03:23</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
+  <option name="CONSOLE_FONT_SIZE" value="18" />
   <option name="CONSOLE_LINE_SPACING" value="1.1" />
 </scheme>
